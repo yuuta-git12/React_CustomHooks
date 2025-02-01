@@ -16,7 +16,7 @@ export default function App() {
     setError(false);
 
     axios
-      .get<Array<User>>('https://jsonplaceholder.typicode.com/usersdddd')
+      .get<Array<User>>('https://jsonplaceholder.typicode.com/users')
       .then((res) => {
         const data = res.data.map((user) => ({
           id: user.id,
