@@ -1,9 +1,5 @@
 import './App.css';
 import { UserCard } from './components/UserCard';
-import axios from 'axios';
-import { User } from './types/api/user';
-import { useState } from 'react';
-import { UserProfile } from './types/userProfile';
 import { useAllUsers } from './hooks/useAllUsers';
 
 export default function App() {
